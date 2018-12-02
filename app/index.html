@@ -1,0 +1,174 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Formulaire</title>
+<link href="css/jquery-ui.css" rel="stylesheet" type="text/css">	
+<link href="css/main.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+	
+<div class="container-fluid">
+	
+	
+	<div class="bubbly-button" id="btnseco" >Se connecter</div>
+	
+	
+	<div class="bubbly-button" id="btnsins" >S'inscrire</div>
+	
+	
+	
+	
+	
+<div class="row">
+	
+	
+	
+	
+	<div id="formseconnecter" class="col-6">
+
+
+		<form id="connection" class="row justify-content-center ">
+   			
+   			
+   	
+   			<div class="fo col-9 align-self-center">
+   			
+   			<h1>Connection</h1>
+			<h3>Connectez-vous pour continuer</h3>
+    	
+     		
+   
+   			<div class="mat-div col-7">
+  			<label class="mat-label">Email</label>
+			<input type ="email" id="identifiant" name="identifiant" class="mat-input" data-validetta="required">
+			</div>
+
+
+			<div class="mat-div col-7">
+  			<label class="mat-label">Mot de passe</label>
+			<input id="mdp3" type="password" name="mdp3" class="mat-input" data-validetta="required,minLength[6]">
+			</div>
+   			
+
+   			<button id="btn2" type="submit">Se connecter</button>
+   			
+   			
+   			 
+   			
+			</div>
+			
+			 <div id="contenu2"></div>
+			
+		</form> <!--fin de connection-->
+	
+
+	
+	
+	</div> <!--fin de la formconnecter-->
+
+
+
+<div id="forminscription" class="col-6">
+
+
+<div id="formeinscription2" class="row justify-content-center ">
+
+
+<div class="col-9 ">
+
+	<h1>Inscription</h1>
+	<h3>Inscrivez-vous pour continuer</h3>
+		<form id="inscription">
+  	
+  	
+  			<div id="contenu" class="col-8"></div>
+
+  	
+  			<div class="mat-div col-8">
+  			<label class="mat-label">Nom</label>
+			<input id="nom" type="text" class="mat-input" data-validetta="required">
+			</div>
+			
+  			<div class="mat-div col-8">
+  			<label class="mat-label">Prénom</label>
+			<input id="prenom" type="text" class="mat-input" data-validetta="required">
+			</div>
+			
+			
+			<div class="mat-div col-8">
+  			<label class="mat-label">Date de naissance</label>
+			<input type="text" id="datepicker" class="mat-input" data-validetta="required">
+			</div>
+			
+			
+			<div class="mat-div col-8">
+  			<label class="mat-label">Code postal</label>
+			<input id="cp" type="text" class="mat-input" data-validetta="required">
+			</div>
+			
+			
+			
+			<div class="mat-div col-8">
+  			<label class="mat-label">Ville</label>
+			<input id="ville" type="text" class="mat-input">
+			</div>
+			
+
+		
+			<div class="mat-div col-8">
+  			<label class="mat-label">Email</label>
+			<input type ="email" id="email" class="mat-input" data-validetta="required">
+			</div>
+
+
+			<div class="mat-div col-8">
+  			<label class="mat-label">Votre mot de passe</label>
+			<input id="mdp" type="password" name="mdp" class="mat-input" data-validetta="required,minLength[6]">
+			</div>
+			
+			
+			<div class="mat-div col-8">
+  			<label class="mat-label">Confirmer votre mot de passe</label>
+			<input id="mdp2" type="password" class="mat-input" name="mdp2" data-validetta="required,equalTo[mdp]">
+			</div>
+	
+
+			<div class="chec col-8">
+        	<input type="checkbox" id="check" name="check" value="" data-validetta="required" />
+        	<label for="check">
+          	<span><!-- element necessaire pour le checkbox --></span>Accepter les conditions générales
+       		</label>
+     		</div>
+	
+  
+  			<br>
+
+			<button id="btn" >S'inscrire</button>
+    
+    		
+    
+			</form><!--fin form inscription-->
+
+
+
+		</div><!--fin col-->
+			
+		</div><!--fin col forminscription2-->
+		
+		</div><!--fin col forminscription-->
+		
+	</div><!--fin row-->
+
+</div><!--fin container-->
+ 
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/validetta.min.js"></script>
+<script src="js/validettaLang-fr-FR.js"></script>
+<script src="js/scripts2.js"></script>
+</body>
+
+</html>
